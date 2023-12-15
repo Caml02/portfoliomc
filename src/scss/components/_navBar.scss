@@ -1,0 +1,49 @@
+// Estilos generales para los íconos sociales
+.social-icon {
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 24px;
+    border: none;
+    background-color: transparent;
+  }
+  
+  // Estilos para el círculo y la transición de hover
+  .social-icon a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #333; // Cambia el color del ícono según tu diseño
+  
+    // Transición suave para el hover
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  // Efecto de hover
+  .social-icon a:hover {
+    background-color: #333;
+    color: white;
+    transform: scale(1.1); // Ajusta el valor para el aumento de tamaño al hacer hover
+  }
+  
+
+  // Button Let's connect
+.btn-connect {
+    color: #333; // Cambia el color del texto según tu diseño
+    border: 2px solid #333; // Cambia el color del borde según tu diseño
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.5s;
+  }
+  
+  .btn-connect:hover {
+    background-color: #333; // Color de fondo al hacer hover
+    color: #fff; // Cambia el color del texto al hacer hover según tu diseño
+}
+  
+  

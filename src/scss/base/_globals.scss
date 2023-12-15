@@ -1,0 +1,30 @@
+@use 'variables' as v;
+@use 'mixins' as m;
+
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+body {
+    min-height: 100%;
+    @include m.tablet  {
+
+    }
+    display: flex;
+    flex-direction: column;
+    background: rgb(63,94,251);
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(30,50,150,1) 0%, rgba(20,27,77,0.8803418803) 14%, rgba(10,10,200,1) 27%, rgba(20,5,100,1) 63%, rgba(50,0,200,1) 98%);
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
